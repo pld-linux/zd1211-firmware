@@ -1,4 +1,5 @@
 Summary:	Firmware for the ZyDAS ZD1211 802.11b/g USB WLAN
+Summary(pl.UTF-8):	Firmware dla kart sieciowych WLAN ZyDAS ZD1211 802.11b/g USB
 Name:		zd1211-firmware
 Version:	1.3
 Release:	1
@@ -12,6 +13,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Firmware for the ZyDAS ZD1211 802.11b/g USB WLAN.
+
+%description -l pl.UTF-8
+Firmware dla kart sieciowych WLAN ZyDAS ZD1211 802.11b/g USB.
 
 %prep
 %setup -q -n %{name}
