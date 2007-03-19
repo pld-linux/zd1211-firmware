@@ -12,7 +12,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Firmware for the ZyDAS ZD1211 802.11b/g USB WLAN.
+Firmware for the ZyDAS ZD1211 802.11b/g USB WLAN cards.
 
 %description -l pl.UTF-8
 Firmware dla kart sieciowych WLAN ZyDAS ZD1211 802.11b/g USB.
