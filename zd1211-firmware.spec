@@ -1,12 +1,12 @@
 Summary:	Firmware for the ZyDAS ZD1211 802.11b/g USB WLAN
 Summary(pl.UTF-8):	Firmware dla kart sieciowych WLAN ZyDAS ZD1211 802.11b/g USB
 Name:		zd1211-firmware
-Version:	1.3
+Version:	1.4
 Release:	1
 License:	GPL
 Group:		Base/Kernel
-Source0:	http://dl.sourceforge.net/zd1211/%{name}%{version}.tar.bz2
-# Source0-md5:	cfff76ea35f4f93c37f6c99aa2058140
+Source0:	http://dl.sourceforge.net/zd1211/%{name}-%{version}.tar.bz2
+# Source0-md5:	19f28781d76569af8551c9d11294c870
 URL:		http://zd1211.ath.cx/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
